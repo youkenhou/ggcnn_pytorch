@@ -8,7 +8,7 @@ The original code is implemented with Keras. [here](https://github.com/dougsm/gg
 This code was tested with Python 3.6, Pytorch 1.0.0. Other required python packages can be found at the original repo. Of course Tensorflow and Keras is not neccessary. 
 
 ## Prepare dataset
-The original code `generate_dataset.py` requires a large RAM to generate the dataset (mine is 32GB but still not enough). Memory error will occur due to lack of RAM. `generate_dataset.py` in this code is modified at the part of writing h5 file so that less RAM is required.
+The original code `generate_dataset.py` requires a large RAM to generate the dataset (mine is 32GB but still not enough). Memory error will occur due to lack of RAM. `generate_dataset.py` in this code is modified at the part of writing h5 file so that less RAM is required. To generate dataset you need to clone the original repo and replace `generate_dataset.py` with the one in this repo.
 
 ## Start training
 1. Modify `DATA_PATH` `MODEL_PATH` `BATCH_SZIE` `NUM_EPOCHS` in `train.py` according to your need.
@@ -22,3 +22,4 @@ The original code `generate_dataset.py` requires a large RAM to generate the dat
 Change the value of `VISUALISE_FAILURES` and `VISUALIZE_SUCCESSES` in `evaluate.py` to get visualization results.
 
 
+This repo borrows tons of code from the original repo and I can't assure that results of this code can be 100% same as the original one.
