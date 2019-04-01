@@ -4,6 +4,8 @@ This repo is Pytorch implementation for the paper:
 
 The original code is implemented with Keras. [here](https://github.com/dougsm/ggcnn)
 
+This repo borrows tons of code from the original repo and I can't assure that results of this code can be 100% same as the original one.
+
 ## Requirements
 This code was tested with Python 3.6, Pytorch 1.0.0. Other required python packages can be found at the original repo. Of course Tensorflow and Keras is not neccessary. 
 
@@ -21,5 +23,3 @@ The original code `generate_dataset.py` requires a large RAM to generate the dat
 ## Visualization
 Change the value of `VISUALISE_FAILURES` and `VISUALIZE_SUCCESSES` in `evaluate.py` to get visualization results.
 
-
-This repo borrows tons of code from the original repo and I can't assure that results of this code can be 100% same as the original one.
